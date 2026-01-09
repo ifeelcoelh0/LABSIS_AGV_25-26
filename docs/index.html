@@ -1,19 +1,19 @@
  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<meta charset="utf-8">
 	<TITLE></TITLE>
 	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.0  (Win32)">
 	<META NAME="CREATED" CONTENT="0;0">
 	<META NAME="CHANGEDBY" CONTENT="Lino Figueiredo">
 	<META NAME="CHANGED" CONTENT="20140530;20525176">
 	<META NAME="CHANGEDBY" CONTENT="Lino Figueiredo">
-	<META NAME="CHANGEDBY" CONTENT="José Puga">
-	<META NAME="CHANGEDBY" CONTENT="José Puga">
-	<META NAME="CHANGEDBY" CONTENT="José Puga">
-	<META NAME="CHANGEDBY" CONTENT="José Puga">
-	<META NAME="CHANGEDBY" CONTENT="José Puga">
-	<META NAME="CHANGEDBY" CONTENT="José Puga">
+	<META NAME="CHANGEDBY" CONTENT="JosÃ© Puga">
+	<META NAME="CHANGEDBY" CONTENT="JosÃ© Puga">
+	<META NAME="CHANGEDBY" CONTENT="JosÃ© Puga">
+	<META NAME="CHANGEDBY" CONTENT="JosÃ© Puga">
+	<META NAME="CHANGEDBY" CONTENT="JosÃ© Puga">
+	<META NAME="CHANGEDBY" CONTENT="JosÃ© Puga">
 	<STYLE TYPE="text/css">
 	<!--
 		@page { margin: 2.01cm }
@@ -80,7 +80,7 @@
 		</TD>
 		<TD COLSPAN=5 WIDTH=44% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
 			<P ALIGN=LEFT STYLE="border: none; padding: 0cm; text-decoration: none">
-			<FONT COLOR="#000000"><FONT FACE="Thorndale, serif"><FONT SIZE=1 STYLE="font-size: 8pt"><I><B><FONT COLOR="#ffffff"><FONT SIZE=3>João Pedro Ribero 				Bastos 1211352 
+			<FONT COLOR="#000000"><FONT FACE="Thorndale, serif"><FONT SIZE=1 STYLE="font-size: 8pt"><I><B><FONT COLOR="#ffffff"><FONT SIZE=3>JoÃ£o Pedro Ribero 				Bastos 1211352 
 			</FONT></FONT> </B></I></FONT></FONT></FONT>
 			</P>
 		</TD>
@@ -155,7 +155,7 @@
 <TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
 
     <P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-    Este projeto foi desenvolvido no âmbito da unidade curricular de Laboratório de Sistemas do curso de Engenharia Eletrotécnica e de Computadores do Instituto Superior de Engenharia do Porto. O objetivo foi conceber e implementar um veículo guiado automaticamente seguidor de linha, baseado no microcontrolador ATmega88, capaz de seguir de forma autónoma uma pista preta sobre fundo branco.
+    Este projeto foi desenvolvido no Ã¢mbito da unidade curricular de LaboratÃ³rio de Sistemas do curso de Engenharia EletrotÃ©cnica e de Computadores do Instituto Superior de Engenharia do Porto. O objetivo foi conceber e implementar um veÃ­culo guiado automaticamente seguidor de linha, baseado no microcontrolador ATmega88, capaz de seguir de forma autÃ³noma uma pista preta sobre fundo branco.
     </P>
 
 <P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
@@ -164,13 +164,13 @@ De forma mais concreta, o sistema desenvolvido pretende:
 
 <UL>
   <LI><P ALIGN=LEFT STYLE="margin-bottom: 0.2cm; border: none; padding: 0cm">
-  Seguir a linha de forma totalmente autónoma ao longo da pista de ensaio.
+  Seguir a linha de forma totalmente autÃ³noma ao longo da pista de ensaio.
   </P></LI>
   <LI><P ALIGN=LEFT STYLE="margin-bottom: 0.2cm; border: none; padding: 0cm">
-  Manter uma velocidade de deslocação aproximadamente constante, mesmo com variações de carga da bateria e diferenças entre os motores.
+  Manter uma velocidade de deslocaÃ§Ã£o aproximadamente constante, mesmo com variaÃ§Ãµes de carga da bateria e diferenÃ§as entre os motores.
   </P></LI>
   <LI><P ALIGN=LEFT STYLE="margin-bottom: 0.2cm; border: none; padding: 0cm">
-  Utilizar encoders óticos nas rodas e um controlador PI para regular a velocidade de cada motor.
+  Utilizar encoders Ã³ticos nas rodas e um controlador PI para regular a velocidade de cada motor.
   </P></LI>
 </UL>
 
@@ -179,40 +179,40 @@ De forma mais concreta, o sistema desenvolvido pretende:
 
 
     <P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-    Ao longo do desenvolvimento foram aplicados conceitos de eletrónica digital, conversão analógico digital, controlo por PWM, temporização e utilização de interrupções, integrando num único sistema os vários temas abordados na unidade curricular.
+    Ao longo do desenvolvimento foram aplicados conceitos de eletrÃ³nica digital, conversÃ£o analÃ³gico digital, controlo por PWM, temporizaÃ§Ã£o e utilizaÃ§Ã£o de interrupÃ§Ãµes, integrando num Ãºnico sistema os vÃ¡rios temas abordados na unidade curricular.
     </P>
 
     <P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-    Antes de descrever em detalhe a solução implementada é importante enquadrar o projeto no contexto do estado da arte dos veículos guiados automaticamente e dos seguidores de linha didáticos.
+    Antes de descrever em detalhe a soluÃ§Ã£o implementada Ã© importante enquadrar o projeto no contexto do estado da arte dos veÃ­culos guiados automaticamente e dos seguidores de linha didÃ¡ticos.
     </P>
 <P ALIGN=LEFT STYLE="margin-bottom: 0.3cm">
     <FONT FACE="Thorndale, serif"><FONT SIZE=3><B>Estado da Arte</B></FONT></FONT>
 </P>
 
     <P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; background: #eeeeee">
-    Nestas últimas décadas os veículos guiados automaticamente têm sido amplamente utilizados em ambientes industriais e logísticos, nomeadamente em armazéns, linhas de produção e sistemas de transporte interno. Estes veículos seguem percursos previamente definidos e são capazes de se deslocar de forma autónoma, reduzindo a necessidade de intervenção humana em tarefas repetitivas.
+    Nestas Ãºltimas dÃ©cadas os veÃ­culos guiados automaticamente tÃªm sido amplamente utilizados em ambientes industriais e logÃ­sticos, nomeadamente em armazÃ©ns, linhas de produÃ§Ã£o e sistemas de transporte interno. Estes veÃ­culos seguem percursos previamente definidos e sÃ£o capazes de se deslocar de forma autÃ³noma, reduzindo a necessidade de intervenÃ§Ã£o humana em tarefas repetitivas.
     </P>
 
     <P ALIGN="CENTER">
         <IMG SRC="AGVexemplo.JPG" ALT="Exemplo de AGV industrial" WIDTH="300"><BR>
-        <SPAN STYLE="font-size: 10pt">Figura X – Exemplo de um AGV industrial</SPAN>
+        <SPAN STYLE="font-size: 10pt">Figura X â€“ Exemplo de um AGV industrial</SPAN>
     </P>
 
     <P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-    Numa vertente mais simples existem diversos projetos didáticos de seguidores de linha que utilizam microcontroladores de baixo custo para introduzir conceitos de eletrónica digital, sensores e controlo. A maioria destes sistemas recorre a sensores óticos para distinguir o contraste entre a linha e o fundo e utiliza motores de corrente contínua comandados por um driver de potência. Em muitos exemplos o controlo é feito apenas com base na leitura dos sensores de linha sem realimentação da velocidade das rodas.
+    Numa vertente mais simples existem diversos projetos didÃ¡ticos de seguidores de linha que utilizam microcontroladores de baixo custo para introduzir conceitos de eletrÃ³nica digital, sensores e controlo. A maioria destes sistemas recorre a sensores Ã³ticos para distinguir o contraste entre a linha e o fundo e utiliza motores de corrente contÃ­nua comandados por um driver de potÃªncia. Em muitos exemplos o controlo Ã© feito apenas com base na leitura dos sensores de linha sem realimentaÃ§Ã£o da velocidade das rodas.
     </P>
 
     <P ALIGN="CENTER">
-        <IMG SRC="SLexemplo.JPG" ALT="Seguidor de linha didático" WIDTH="300"><BR>
-        <SPAN STYLE="font-size: 10pt">Figura X – Exemplo de seguidor de linha didático semelhante ao desenvolvido neste projeto</SPAN>
+        <IMG SRC="SLexemplo.JPG" ALT="Seguidor de linha didÃ¡tico" WIDTH="300"><BR>
+        <SPAN STYLE="font-size: 10pt">Figura X â€“ Exemplo de seguidor de linha didÃ¡tico semelhante ao desenvolvido neste projeto</SPAN>
     </P>
 
     <P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-    Em trabalhos mais avançados começa a ser comum a utilização de encoders incrementais nas rodas, o que permite estimar a velocidade angular e implementar esquemas de controlo de velocidade em malha fechada. Esta abordagem melhora a estabilidade do movimento e reduz diferenças de comportamento entre motores, especialmente em curvas apertadas ou em situações em que o atrito com o piso varia.
+    Em trabalhos mais avanÃ§ados comeÃ§a a ser comum a utilizaÃ§Ã£o de encoders incrementais nas rodas, o que permite estimar a velocidade angular e implementar esquemas de controlo de velocidade em malha fechada. Esta abordagem melhora a estabilidade do movimento e reduz diferenÃ§as de comportamento entre motores, especialmente em curvas apertadas ou em situaÃ§Ãµes em que o atrito com o piso varia.
     </P>
 
     <P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-    O projeto apresentado neste relatório enquadra-se neste contexto de seguidores de linha didáticos, incorporando no entanto algumas características típicas de sistemas mais completos. Para além do uso de um conjunto de sensores infravermelhos para deteção da fita no chão foi utilizada realimentação com encoders para controlo da velocidade de cada roda. Desta forma é possível aproximar o comportamento do veículo ao de um AGV real, explorando simultaneamente conceitos de eletrónica, aquisição de sinal e controlo em tempo real.
+    O projeto apresentado neste relatÃ³rio enquadra-se neste contexto de seguidores de linha didÃ¡ticos, incorporando no entanto algumas caracterÃ­sticas tÃ­picas de sistemas mais completos. Para alÃ©m do uso de um conjunto de sensores infravermelhos para deteÃ§Ã£o da fita no chÃ£o foi utilizada realimentaÃ§Ã£o com encoders para controlo da velocidade de cada roda. Desta forma Ã© possÃ­vel aproximar o comportamento do veÃ­culo ao de um AGV real, explorando simultaneamente conceitos de eletrÃ³nica, aquisiÃ§Ã£o de sinal e controlo em tempo real.
     
 </TD>
 
@@ -237,33 +237,33 @@ De forma mais concreta, o sistema desenvolvido pretende:
 	<TR>
 		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-			A arquitectura do AGV está organizada em vários blocos principais:
-bateria e alimentação,
+			A arquitectura do AGV estÃ¡ organizada em vÃ¡rios blocos principais:
+bateria e alimentaÃ§Ã£o,
 microcontrolador,
 sensores de linha,
 encoders das rodas
-e estágio de potência para os motores.
+e estÃ¡gio de potÃªncia para os motores.
 A Figura X apresenta o diagrama de blocos do sistema.
 	<P ALIGN="CENTER">
         <IMG SRC="diagramaa.JPG" ALT="Exemplo de AGV industrial" WIDTH="500"><BR>
-        <SPAN STYLE="font-size: 10pt">Figura X – Diagrama de blocos da arquitetura do projeto </SPAN>
+        <SPAN STYLE="font-size: 10pt">Figura X â€“ Diagrama de blocos da arquitetura do projeto </SPAN>
     </P>
 
 			<ul>
-  <li><strong>Sensores IR</strong>: leitura analógica por <strong>ADC</strong> (5 canais) para cálculo do erro de linha.</li>
+  <li><strong>Sensores IR</strong>: leitura analÃ³gica por <strong>ADC</strong> (5 canais) para cÃ¡lculo do erro de linha.</li>
   <li><strong>Encoders</strong>: contagem de impulsos por <strong>INT0</strong> e <strong>INT1</strong>.</li>
-  <li><strong>Motores</strong>: comando por <strong>PWM</strong> e sinais de <strong>direção</strong> aplicados ao <strong>L293D</strong>.</li>
-  <li><strong>Temporização</strong>: timers para definir o período de amostragem do controlo e tarefas auxiliares de debug.</li>
+  <li><strong>Motores</strong>: comando por <strong>PWM</strong> e sinais de <strong>direÃ§Ã£o</strong> aplicados ao <strong>L293D</strong>.</li>
+  <li><strong>TemporizaÃ§Ã£o</strong>: timers para definir o perÃ­odo de amostragem do controlo e tarefas auxiliares de debug.</li>
 </ul>
 
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-A bateria LiPo 3S fornece aproximadamente 11,6 V, tensão que alimenta diretamente o estágio de potência do sistema, nomeadamente a ponte H (L293D) para acionamento dos motores. Em paralelo, a bateria alimenta um regulador de tensão que gera 5 V para a eletrónica de controlo, incluindo o ATmega88, o módulo de sensores infravermelhos, os encoders óticos e a alimentação lógica do driver. Todos os blocos partilham uma massa comum, garantindo uma referência elétrica consistente para medições e sinais de controlo.
+A bateria LiPo 3S fornece aproximadamente 11,6 V, tensÃ£o que alimenta diretamente o estÃ¡gio de potÃªncia do sistema, nomeadamente a ponte H (L293D) para acionamento dos motores. Em paralelo, a bateria alimenta um regulador de tensÃ£o que gera 5 V para a eletrÃ³nica de controlo, incluindo o ATmega88, o mÃ³dulo de sensores infravermelhos, os encoders Ã³ticos e a alimentaÃ§Ã£o lÃ³gica do driver. Todos os blocos partilham uma massa comum, garantindo uma referÃªncia elÃ©trica consistente para mediÃ§Ãµes e sinais de controlo.
 			</P>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-O controlo é organizado em duas camadas. Na camada superior, é estimada a posição da linha com base nos cinco sensores IR e calcula um erro de alinhamento relativamente ao centro do. Esse erro é convertido em duas referências de velocidade, uma para a roda esquerda e outra para a roda direita. Na camada inferior, um controlador PI de velocidade usa a realimentação dos encoders para ajustar o PWM de cada motor, de forma a que a velocidade medida siga a referência definida pela camada de seguimento de linha.
+O controlo Ã© organizado em duas camadas. Na camada superior, Ã© estimada a posiÃ§Ã£o da linha com base nos cinco sensores IR e calcula um erro de alinhamento relativamente ao centro do. Esse erro Ã© convertido em duas referÃªncias de velocidade, uma para a roda esquerda e outra para a roda direita. Na camada inferior, um controlador PI de velocidade usa a realimentaÃ§Ã£o dos encoders para ajustar o PWM de cada motor, de forma a que a velocidade medida siga a referÃªncia definida pela camada de seguimento de linha.
 			</P>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-			As interfaces entre blocos são implementadas com os periféricos do ATmega88: os sensores de linha são lidos por entradas ADC, os pulsos dos encoders são contados por interrupções externas (INT0 e INT1), e os motores são comandados por PWM gerado por temporizadores e aplicado ao L293D, em conjunto com sinais digitais de direção.
+			As interfaces entre blocos sÃ£o implementadas com os perifÃ©ricos do ATmega88: os sensores de linha sÃ£o lidos por entradas ADC, os pulsos dos encoders sÃ£o contados por interrupÃ§Ãµes externas (INT0 e INT1), e os motores sÃ£o comandados por PWM gerado por temporizadores e aplicado ao L293D, em conjunto com sinais digitais de direÃ§Ã£o.
 			</P>
 
 		</TD>
@@ -285,38 +285,38 @@ O controlo é organizado em duas camadas. Na camada superior, é estimada a posiçã
   <tr>
     <td style="text-align:center; padding: 0 25px;">
       <img src="AGVlegenda.JPG" alt="Breadboard com componentes" width="425"><br>
-      <span style="font-size: 10pt">Figura X – Foto do carrinho com os componentes numerados</span>
+      <span style="font-size: 10pt">Figura X â€“ Foto do carrinho com os componentes numerados</span>
     </td>
 
     <td style="text-align:center; padding: 0 25px;">
-      <img src="breadboard.JPEG" alt="Descrição da outra foto" width="300"><br>
-      <span style="font-size: 10pt">Figura Y – Foto da breadboard com todas as ligações</span>
+      <img src="breadboard.JPEG" alt="DescriÃ§Ã£o da outra foto" width="300"><br>
+      <span style="font-size: 10pt">Figura Y â€“ Foto da breadboard com todas as ligaÃ§Ãµes</span>
     </td>
   </tr>
 </table>
 
 <h3>1-Microcontrolador</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-O núcleo de processamento do projeto é um ATmega88 montado na breadboard, com cristal de
-16 MHz. Este microcontrolador fornece conversão analógico digital de 10 bits,
-módulos de PWM por hardware, temporizadores de 8 e 16 bits e duas entradas de
-interrupção externa, suficientes para ler os sensores, os encoders e gerar os
+O nÃºcleo de processamento do projeto Ã© um ATmega88 montado na breadboard, com cristal de
+16 MHz. Este microcontrolador fornece conversÃ£o analÃ³gico digital de 10 bits,
+mÃ³dulos de PWM por hardware, temporizadores de 8 e 16 bits e duas entradas de
+interrupÃ§Ã£o externa, suficientes para ler os sensores, os encoders e gerar os
 sinais de controlo dos motores.
 			<P ALIGN="CENTER">
    			<IMG SRC="ATMega8-Pin-Diagram.PNG" ALT="Microcontrolador ATmega8P montado na breadboard" WIDTH="300">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – Microcontrolador ATmega88 no sistema</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ Microcontrolador ATmega88 no sistema</SPAN>
 
 <h3>2-Ponte H</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-Para efetuar o controlo dos motores foi utilizada uma ponte H do tipo L293D. Este circuito integrado funciona como etapa de potência entre o microcontrolador ATmega328P e os motores de corrente contínua, permitindo tanto o controlo do sentido de rotação como da velocidade de cada roda.
-As entradas de controlo do L293D estão ligadas a pinos digitais do microcontrolador, responsáveis por definir se cada motor roda para a frente ou para trás.
-O L293D recebe a alimentação lógica a 5 V proveniente do regulador e uma alimentação separada para potência, ligada à linha de alimentação dos motores. Desta forma o microcontrolador fica protegido das correntes mais elevadas exigidas pelos motores e é garantido que o AGV consegue arrancar e corrigir a trajetória sem sobrecarregar os pinos do ATmega88.
+Para efetuar o controlo dos motores foi utilizada uma ponte H do tipo L293D. Este circuito integrado funciona como etapa de potÃªncia entre o microcontrolador ATmega328P e os motores de corrente contÃ­nua, permitindo tanto o controlo do sentido de rotaÃ§Ã£o como da velocidade de cada roda.
+As entradas de controlo do L293D estÃ£o ligadas a pinos digitais do microcontrolador, responsÃ¡veis por definir se cada motor roda para a frente ou para trÃ¡s.
+O L293D recebe a alimentaÃ§Ã£o lÃ³gica a 5 V proveniente do regulador e uma alimentaÃ§Ã£o separada para potÃªncia, ligada Ã  linha de alimentaÃ§Ã£o dos motores. Desta forma o microcontrolador fica protegido das correntes mais elevadas exigidas pelos motores e Ã© garantido que o AGV consegue arrancar e corrigir a trajetÃ³ria sem sobrecarregar os pinos do ATmega88.
 
 			<P ALIGN="CENTER">
    			<IMG SRC="ponteH.JPG" ALT="Encoders" WIDTH="300">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – Ponte H L293D</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ Ponte H L293D</SPAN>
 
 			</P>
 			<P ALIGN=LEFT><BR>
@@ -326,49 +326,49 @@ O L293D recebe a alimentação lógica a 5 V proveniente do regulador e uma aliment
 
 <h3>3-Motores</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-A tracção é assegurada por dois motores de corrente contínua com caixa de engrenagens.
-Os motores são comandados por um circuito integrado L293D que implementa duas pontes H.
+A tracÃ§Ã£o Ã© assegurada por dois motores de corrente contÃ­nua com caixa de engrenagens.
+Os motores sÃ£o comandados por um circuito integrado L293D que implementa duas pontes H.
 O ATmega328P gera sinais PWM no Timer0 para controlar a velocidade e usa pinos digitais
-para definir o sentido de rotação de cada motor. Nesta implementação o robot circula
-sempre para a frente, e as curvas são obtidas através da diferença de velocidade entre
+para definir o sentido de rotaÃ§Ã£o de cada motor. Nesta implementaÃ§Ã£o o robot circula
+sempre para a frente, e as curvas sÃ£o obtidas atravÃ©s da diferenÃ§a de velocidade entre
 as rodas esquerda e direita.
 
 			<P ALIGN="CENTER">
    			<IMG SRC="motores.JPG" ALT="Encoders" WIDTH="300">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – Motores</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ Motores</SPAN>
 
 			</P>
 			<P ALIGN=LEFT><BR>
 			</P>
 
 
-<h3>4-Alimentação</h3>
+<h3>4-AlimentaÃ§Ã£o</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-			O robot é alimentado por uma bateria LiPo 3S, com tensão nominal de 11,6 V. Esta tensão é utilizada no estágio de potência dos motores, através da ponte H L293D. Para alimentar o microcontrolador e a restante eletrónica de controlo é usado um regulador de tensão linear LM7805, que reduz a tensão da bateria para 5 V.
-A opção por um regulador linear simplifica o circuito e facilita a integração em protótipo. No entanto, implica maior dissipação térmica quando a bateria está totalmente carregada, pelo que é importante garantir uma corrente dentro dos limites do regulador e considerar dissipação adequada durante funcionamento prolongado.
+			O robot Ã© alimentado por uma bateria LiPo 3S, com tensÃ£o nominal de 11,6 V. Esta tensÃ£o Ã© utilizada no estÃ¡gio de potÃªncia dos motores, atravÃ©s da ponte H L293D. Para alimentar o microcontrolador e a restante eletrÃ³nica de controlo Ã© usado um regulador de tensÃ£o linear LM7805, que reduz a tensÃ£o da bateria para 5 V.
+A opÃ§Ã£o por um regulador linear simplifica o circuito e facilita a integraÃ§Ã£o em protÃ³tipo. No entanto, implica maior dissipaÃ§Ã£o tÃ©rmica quando a bateria estÃ¡ totalmente carregada, pelo que Ã© importante garantir uma corrente dentro dos limites do regulador e considerar dissipaÃ§Ã£o adequada durante funcionamento prolongado.
 			<P ALIGN="CENTER">
    			<IMG SRC="BATERIA.JPG" ALT="Microcontrolador ATmega8P montado na breadboard" WIDTH="300">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – Bateria LiPo 3S 11,6v</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ Bateria LiPo 3S 11,6v</SPAN>
 
 			</P>
-<h3>5-Regulador de tensão</h3>
+<h3>5-Regulador de tensÃ£o</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-Como já foi dito acima, para fornecer 5 V ao microcontrolador e aos periféricos foi utilizado um regulador linear LM7805. O regulador recebe a tensão da bateria LiPo 3S (tipicamente entre cerca de 11 V e 12,0 V) e disponibiliza uma saída estabilizada de 5 V para a eletrónica de controlo, incluindo o ATmega88P, o módulo de sensores de linha e os encoders.Por se tratar de um regulador linear, parte da energia é dissipada sob a forma de calor, proporcionalmente à diferença entre a tensão de entrada e os 5 V de saída, bem como à corrente consumida. Na prática, esta solução foi suficiente para o protótipo, desde que respeitados os limites de corrente e assegurada massa comum em todo o sistema.
+Como jÃ¡ foi dito acima, para fornecer 5 V ao microcontrolador e aos perifÃ©ricos foi utilizado um regulador linear LM7805. O regulador recebe a tensÃ£o da bateria LiPo 3S (tipicamente entre cerca de 11 V e 12,0 V) e disponibiliza uma saÃ­da estabilizada de 5 V para a eletrÃ³nica de controlo, incluindo o ATmega88P, o mÃ³dulo de sensores de linha e os encoders.Por se tratar de um regulador linear, parte da energia Ã© dissipada sob a forma de calor, proporcionalmente Ã  diferenÃ§a entre a tensÃ£o de entrada e os 5 V de saÃ­da, bem como Ã  corrente consumida. Na prÃ¡tica, esta soluÃ§Ã£o foi suficiente para o protÃ³tipo, desde que respeitados os limites de corrente e assegurada massa comum em todo o sistema.
 			<P ALIGN="CENTER">
-   			<IMG SRC="Regulador.JPG" ALT="Regulador de tensão" WIDTH="300">
+   			<IMG SRC="Regulador.JPG" ALT="Regulador de tensÃ£o" WIDTH="300">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – Regulador de tensão L7805</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ Regulador de tensÃ£o L7805</SPAN>
 			</P>
 <h3>6-Sensores</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-Para detetar a fita preta no chão foi utilizado um módulo com cinco sensores óticos alinhados do tipo TCRT5000, montado na parte frontal inferior do robô. Cada sensor integra um emissor de infravermelhos e um fototransístor, permitindo distinguir entre superfícies claras e escuras através da luz refletida. As saídas dos cinco sensores são analógicas e estão ligadas às entradas ADC do ATmega328P, nas portas PC0 a PC4.
-Durante a fase de calibração foram medidos os níveis de tensão correspondentes à superfície branca e à fita preta, o que permitiu definir um limiar adequado no código. A partir das leituras dos cinco canais é calculada a posição relativa da linha em relação ao centro do robô, aplicando pesos diferentes a cada sensor. Este valor de desvio é depois usado pelo controlador para ajustar a velocidade de cada roda e manter o AGV alinhado com a trajetória.
+Para detetar a fita preta no chÃ£o foi utilizado um mÃ³dulo com cinco sensores Ã³ticos alinhados do tipo TCRT5000, montado na parte frontal inferior do robÃ´. Cada sensor integra um emissor de infravermelhos e um fototransÃ­stor, permitindo distinguir entre superfÃ­cies claras e escuras atravÃ©s da luz refletida. As saÃ­das dos cinco sensores sÃ£o analÃ³gicas e estÃ£o ligadas Ã s entradas ADC do ATmega328P, nas portas PC0 a PC4.
+Durante a fase de calibraÃ§Ã£o foram medidos os nÃ­veis de tensÃ£o correspondentes Ã  superfÃ­cie branca e Ã  fita preta, o que permitiu definir um limiar adequado no cÃ³digo. A partir das leituras dos cinco canais Ã© calculada a posiÃ§Ã£o relativa da linha em relaÃ§Ã£o ao centro do robÃ´, aplicando pesos diferentes a cada sensor. Este valor de desvio Ã© depois usado pelo controlador para ajustar a velocidade de cada roda e manter o AGV alinhado com a trajetÃ³ria.
 			<P ALIGN="CENTER">
    			<IMG SRC="sensor.JPG" ALT="Sensores seguidor de linha" WIDTH="300">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – Módulo de 5 sensores TCRT5000</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ MÃ³dulo de 5 sensores TCRT5000</SPAN>
 			</P>
 
 
@@ -376,62 +376,62 @@ Durante a fase de calibração foram medidos os níveis de tensão correspondentes à
 
 <h3>7-Encoders de velocidade</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-Cada motor está equipado com um disco fendido acoplado ao eixo, com 20 aberturas, e com um sensor ótico que funciona como encoder incremental. Sempre que uma das fendas do disco passa em frente ao sensor, é gerado um impulso digital. Os sinais dos dois encoders estão ligados às entradas de interrupção externa INT0 e INT1 do ATmega88 nas portas PD2 e PD3, respetivamente.
-O microcontrolador conta estes impulsos ao longo de uma janela de tempo fixa, definida por um temporizador, e a partir do número de pulsos por intervalo é calculada a velocidade angular de cada roda. Conhecendo o número de fendas por volta é possível converter o número de pulsos em rotações por segundo ou rotações por minuto. Esta medição da velocidade real é usada pelo controlador para ajustar o sinal PWM enviado à ponte H e compensar diferenças entre motores, garantindo que as duas rodas seguem a mesma velocidade desejada e permitindo um seguimento mais estável da linha.
+Cada motor estÃ¡ equipado com um disco fendido acoplado ao eixo, com 20 aberturas, e com um sensor Ã³tico que funciona como encoder incremental. Sempre que uma das fendas do disco passa em frente ao sensor, Ã© gerado um impulso digital. Os sinais dos dois encoders estÃ£o ligados Ã s entradas de interrupÃ§Ã£o externa INT0 e INT1 do ATmega88 nas portas PD2 e PD3, respetivamente.
+O microcontrolador conta estes impulsos ao longo de uma janela de tempo fixa, definida por um temporizador, e a partir do nÃºmero de pulsos por intervalo Ã© calculada a velocidade angular de cada roda. Conhecendo o nÃºmero de fendas por volta Ã© possÃ­vel converter o nÃºmero de pulsos em rotaÃ§Ãµes por segundo ou rotaÃ§Ãµes por minuto. Esta mediÃ§Ã£o da velocidade real Ã© usada pelo controlador para ajustar o sinal PWM enviado Ã  ponte H e compensar diferenÃ§as entre motores, garantindo que as duas rodas seguem a mesma velocidade desejada e permitindo um seguimento mais estÃ¡vel da linha.
 
 			<P ALIGN="CENTER">
    			<IMG SRC="encoders.JPG" ALT="Encoders" WIDTH="300">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – Encoders</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ Encoders</SPAN>
 			</P>
 
 <h3>LEDs</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-Foram utilizados dois LEDs como elementos simples de sinalização e apoio do sistema. Um LED é gerado por temporização e pisca a 1000 Hz, conforme requisito do projeto, servindo como confirmação visual de que o firmware está em execução e que a temporização está ativa. Este mesmo LED foi também útil durante testes de debug, por exemplo para validar rotinas associadas aos encoders e ao ciclo de controlo.
+Foram utilizados dois LEDs como elementos simples de sinalizaÃ§Ã£o e apoio do sistema. Um LED Ã© gerado por temporizaÃ§Ã£o e pisca a 1000 Hz, conforme requisito do projeto, servindo como confirmaÃ§Ã£o visual de que o firmware estÃ¡ em execuÃ§Ã£o e que a temporizaÃ§Ã£o estÃ¡ ativa. Este mesmo LED foi tambÃ©m Ãºtil durante testes de debug, por exemplo para validar rotinas associadas aos encoders e ao ciclo de controlo.
 </p>
 
 <p>
-O segundo LED é utilizado como indicador de deteção de linha. Sempre que o sistema deteta a linha preta através do módulo de sensores IR, este LED acende, permitindo verificar rapidamente a leitura dos sensores durante a calibração e durante os testes na pista.
+O segundo LED Ã© utilizado como indicador de deteÃ§Ã£o de linha. Sempre que o sistema deteta a linha preta atravÃ©s do mÃ³dulo de sensores IR, este LED acende, permitindo verificar rapidamente a leitura dos sensores durante a calibraÃ§Ã£o e durante os testes na pista.
 </p>		
 			<P ALIGN="CENTER">
    			<IMG SRC="LEDS.PNG" ALT="Sensores seguidor de linha" WIDTH="300">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – LEDs </SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ LEDs </SPAN>
 			</P>
 
-<h3>Esquema elétrico</h3>
+<h3>Esquema elÃ©trico</h3>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
 <p>
-Na figura seguinte apresenta se o esquema elétrico completo do AGV, organizado em 5 secções numeradas.
-Cada secção corresponde a um bloco funcional do sistema, desde a alimentação e processamento até ao controlo dos motores e aquisição dos sensores.
+Na figura seguinte apresenta se o esquema elÃ©trico completo do AGV, organizado em 5 secÃ§Ãµes numeradas.
+Cada secÃ§Ã£o corresponde a um bloco funcional do sistema, desde a alimentaÃ§Ã£o e processamento atÃ© ao controlo dos motores e aquisiÃ§Ã£o dos sensores.
 </p>
 
 			<P ALIGN="CENTER">
    			<IMG SRC="esquema.PNG" ALT="Encoders" WIDTH="800">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Figura X – Esquema elétrico</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Figura X â€“ Esquema elÃ©trico</SPAN>
 			</P>
-<h3>Secção 1</h3>
+<h3>SecÃ§Ã£o 1</h3>
 <p>
-A secção 1 corresponde ao microcontrolador ATmega88, responsável por executar o software do AGV e tomar as decisões de controlo.
-É alimentado a 5 V (VCC e AVCC) a partir do regulador e possui desacoplamento local para reduzir ruído na alimentação.
-O oscilador externo é implementado com um cristal ligado aos pinos XTAL1 e XTAL2, com dois condensadores de 22 pF para massa, garantindo a estabilidade do clock.
-O pino RESET tem uma resistência de pull up para 5 V, evitando resets indesejados, e existe ainda um LED de sinalização ligado a um pino digital para diagnóstico e indicação de estado.
-As entradas analógicas recebem os sinais dos sensores de linha e as entradas digitais recebem os pulsos dos encoders, enquanto as saídas digitais e PWM comandam a ponte H dos motores.
+A secÃ§Ã£o 1 corresponde ao microcontrolador ATmega88, responsÃ¡vel por executar o software do AGV e tomar as decisÃµes de controlo.
+Ã‰ alimentado a 5 V (VCC e AVCC) a partir do regulador e possui desacoplamento local para reduzir ruÃ­do na alimentaÃ§Ã£o.
+O oscilador externo Ã© implementado com um cristal ligado aos pinos XTAL1 e XTAL2, com dois condensadores de 22 pF para massa, garantindo a estabilidade do clock.
+O pino RESET tem uma resistÃªncia de pull up para 5 V, evitando resets indesejados, e existe ainda um LED de sinalizaÃ§Ã£o ligado a um pino digital para diagnÃ³stico e indicaÃ§Ã£o de estado.
+As entradas analÃ³gicas recebem os sinais dos sensores de linha e as entradas digitais recebem os pulsos dos encoders, enquanto as saÃ­das digitais e PWM comandam a ponte H dos motores.
 </p>
 
-<h3>Secção 2</h3>
+<h3>SecÃ§Ã£o 2</h3>
 <p>
-A secção 2 corresponde à ponte H L293D, responsável por controlar os dois motores DC, permitindo definir o sentido de rotação e a velocidade.
-O L293D separa a alimentação da lógica da alimentação dos motores, garantindo que o microcontrolador trabalha a 5 V enquanto os motores podem ser alimentados com uma tensão superior.
+A secÃ§Ã£o 2 corresponde Ã  ponte H L293D, responsÃ¡vel por controlar os dois motores DC, permitindo definir o sentido de rotaÃ§Ã£o e a velocidade.
+O L293D separa a alimentaÃ§Ã£o da lÃ³gica da alimentaÃ§Ã£o dos motores, garantindo que o microcontrolador trabalha a 5 V enquanto os motores podem ser alimentados com uma tensÃ£o superior.
 </p>
 
 <ul class="cfg-bullets">
-  <li><b>Alimentação do CI:</b> pino 8 (VCC1) ligado a 5 V para a lógica, pino 16 (VCC2) ligado à alimentação dos motores (por exemplo 12 V)</li>
+  <li><b>AlimentaÃ§Ã£o do CI:</b> pino 8 (VCC1) ligado a 5 V para a lÃ³gica, pino 16 (VCC2) ligado Ã  alimentaÃ§Ã£o dos motores (por exemplo 12 V)</li>
   <li><b>Massa:</b> pinos 4, 5, 12 e 13 ligados ao GND comum do sistema</li>
 
-  <li><b>Motor 1:</b> ligado às saídas pino 3 (OUT1) e pino 6 (OUT2)</li>
-  <li><b>Motor 2:</b> ligado às saídas pino 11 (OUT3) e pino 14 (OUT4)</li>
+  <li><b>Motor 1:</b> ligado Ã s saÃ­das pino 3 (OUT1) e pino 6 (OUT2)</li>
+  <li><b>Motor 2:</b> ligado Ã s saÃ­das pino 11 (OUT3) e pino 14 (OUT4)</li>
 
   <li><b>Entradas de controlo do Motor 1:</b> pino 2 (IN1) e pino 7 (IN2) ligados ao microcontrolador para definir o sentido</li>
   <li><b>Enable do Motor 1:</b> pino 1 (EN1,2) ligado ao microcontrolador, normalmente a um sinal PWM para controlar a velocidade</li>
@@ -441,60 +441,60 @@ O L293D separa a alimentação da lógica da alimentação dos motores, garantindo qu
 </ul>
 
 <p>
-Em funcionamento, as entradas IN determinam o sentido de rotação de cada motor e os pinos EN recebem PWM para ajustar o duty cycle e, consequentemente, a velocidade.
+Em funcionamento, as entradas IN determinam o sentido de rotaÃ§Ã£o de cada motor e os pinos EN recebem PWM para ajustar o duty cycle e, consequentemente, a velocidade.
 </p>
 
-<h3>Secção 3</h3>
+<h3>SecÃ§Ã£o 3</h3>
 <p>
-A secção 3 corresponde ao circuito relativo ao regulador de tensão, responsável por fornecer uma tensão estável de 5 V para o microcontrolador e restantes periféricos de lógica.
-A alimentação principal entra a 12 V e é regulada através do LM7805, garantindo 5 V constantes na saída.	
+A secÃ§Ã£o 3 corresponde ao circuito relativo ao regulador de tensÃ£o, responsÃ¡vel por fornecer uma tensÃ£o estÃ¡vel de 5 V para o microcontrolador e restantes perifÃ©ricos de lÃ³gica.
+A alimentaÃ§Ã£o principal entra a 12 V e Ã© regulada atravÃ©s do LM7805, garantindo 5 V constantes na saÃ­da.	
 </p>
 
 <ul class="cfg-bullets">
   <li><b>Entrada:</b> 12 V aplicados ao pino 1 (VI) do LM7805</li>
-  <li><b>Saída:</b> 5 V obtidos no pino 3 (VO), distribuídos para o ATmega88 e restantes módulos a 5 V</li>
+  <li><b>SaÃ­da:</b> 5 V obtidos no pino 3 (VO), distribuÃ­dos para o ATmega88 e restantes mÃ³dulos a 5 V</li>
   <li><b>Massa:</b> pino 2 (GND) ligado ao GND comum do sistema</li>
-  <li><b>Proteção:</b> o díodo D1 em série na entrada evita danos caso a alimentação seja ligada com polaridade invertida</li>
-  <li><b>Filtragem:</b> os condensadores de 0,33 µF (na entrada) e 0,1 µF (na saída) estabilizam a regulação e reduzem ruído e oscilações</li>
+  <li><b>ProteÃ§Ã£o:</b> o dÃ­odo D1 em sÃ©rie na entrada evita danos caso a alimentaÃ§Ã£o seja ligada com polaridade invertida</li>
+  <li><b>Filtragem:</b> os condensadores de 0,33 ÂµF (na entrada) e 0,1 ÂµF (na saÃ­da) estabilizam a regulaÃ§Ã£o e reduzem ruÃ­do e oscilaÃ§Ãµes</li>
 </ul>
 
 <p>
-Este regulador alimenta a parte de controlo (lógica a 5 V). A alimentação dos motores é feita separadamente através da ponte H (VCC2 do L293D), usando a tensão mais alta disponível, enquanto a lógica do L293D e o microcontrolador permanecem a 5 V.
+Este regulador alimenta a parte de controlo (lÃ³gica a 5 V). A alimentaÃ§Ã£o dos motores Ã© feita separadamente atravÃ©s da ponte H (VCC2 do L293D), usando a tensÃ£o mais alta disponÃ­vel, enquanto a lÃ³gica do L293D e o microcontrolador permanecem a 5 V.
 </p>
 
 
-<h3>Secção 4</h3>
+<h3>SecÃ§Ã£o 4</h3>
 <p>
-A secção 4 corresponde aos encoders das rodas, utilizados para medir a velocidade/rotação de cada motor através de sinais digitais. 
-Cada encoder é ligado ao microcontrolador e fornece impulsos (pulsos) que permitem calcular a velocidade e servir de feedback para o controlo (PI/PID).
+A secÃ§Ã£o 4 corresponde aos encoders das rodas, utilizados para medir a velocidade/rotaÃ§Ã£o de cada motor atravÃ©s de sinais digitais. 
+Cada encoder Ã© ligado ao microcontrolador e fornece impulsos (pulsos) que permitem calcular a velocidade e servir de feedback para o controlo (PI/PID).
 </p>
 
 <ul class="cfg-bullets">
   <li><b>Conectores:</b> J2 (Encoder Direito) e J3 (Encoder Esquerdo)</li>
-  <li><b>Alimentação:</b> cada encoder é alimentado a <b>5 V</b> e <b>GND</b> a partir do barramento principal</li>
+  <li><b>AlimentaÃ§Ã£o:</b> cada encoder Ã© alimentado a <b>5 V</b> e <b>GND</b> a partir do barramento principal</li>
   <li><b>Sinais:</b> 
     <ul>
       <li><b>encoderD</b> (J2) ligado ao pino <b>PD2</b> do ATmega88</li>
       <li><b>encoderE</b> (J3) ligado ao pino <b>PD3</b> do ATmega88</li>
     </ul>
   </li>
-  <li><b>Função:</b> os pulsos lidos em PD2 e PD3 permitem estimar a velocidade de cada roda e ajustar o PWM aplicado aos motores para manter a velocidade desejada</li>
+  <li><b>FunÃ§Ã£o:</b> os pulsos lidos em PD2 e PD3 permitem estimar a velocidade de cada roda e ajustar o PWM aplicado aos motores para manter a velocidade desejada</li>
 </ul>
 
 <p>
-Desta forma, o sistema consegue corrigir diferenças entre motores, variações de carga e irregularidades do piso, garantindo um movimento mais estável e controlo mais preciso.
+Desta forma, o sistema consegue corrigir diferenÃ§as entre motores, variaÃ§Ãµes de carga e irregularidades do piso, garantindo um movimento mais estÃ¡vel e controlo mais preciso.
 </p>
 
-<h3>Secção 5</h3>
+<h3>SecÃ§Ã£o 5</h3>
 <p>
-A secção 5 corresponde ao conjunto de <b>sensores de linha</b>, responsáveis por detetar a posição da linha no chão e permitir ao AGV corrigir a direção. 
-Os sensores são lidos pelo ATmega88 através das entradas analógicas, convertendo a intensidade refletida (branco/preto) em valores digitais no ADC.
+A secÃ§Ã£o 5 corresponde ao conjunto de <b>sensores de linha</b>, responsÃ¡veis por detetar a posiÃ§Ã£o da linha no chÃ£o e permitir ao AGV corrigir a direÃ§Ã£o. 
+Os sensores sÃ£o lidos pelo ATmega88 atravÃ©s das entradas analÃ³gicas, convertendo a intensidade refletida (branco/preto) em valores digitais no ADC.
 </p>
 
 <ul class="cfg-bullets">
   <li><b>Conector:</b> J1 (Sensor de Linha)</li>
-  <li><b>Alimentação:</b> os sensores recebem <b>5 V</b> e <b>GND</b> a partir do barramento principal</li>
-  <li><b>Entradas analógicas usadas (ATmega328P):</b>
+  <li><b>AlimentaÃ§Ã£o:</b> os sensores recebem <b>5 V</b> e <b>GND</b> a partir do barramento principal</li>
+  <li><b>Entradas analÃ³gicas usadas (ATmega328P):</b>
     <ul>
       <li><b>sensorL1</b> ligado a <b>PC0 (ADC0)</b></li>
       <li><b>sensorL2</b> ligado a <b>PC1 (ADC1)</b></li>
@@ -503,11 +503,11 @@ Os sensores são lidos pelo ATmega88 através das entradas analógicas, convertendo
       <li><b>sensorL5</b> ligado a <b>PC4 (ADC4)</b></li>
     </ul>
   </li>
-  <li><b>Função:</b> os valores lidos no ADC permitem calcular um “erro” (desvio do centro da linha) que é depois usado no controlo (PID/PI) para ajustar o PWM dos motores</li>
+  <li><b>FunÃ§Ã£o:</b> os valores lidos no ADC permitem calcular um â€œerroâ€ (desvio do centro da linha) que Ã© depois usado no controlo (PID/PI) para ajustar o PWM dos motores</li>
 </ul>
 
 <p>
-Com esta leitura em múltiplos pontos, o AGV consegue identificar se está centrado, desviado para a esquerda ou para a direita e corrigir a trajetória de forma contínua.
+Com esta leitura em mÃºltiplos pontos, o AGV consegue identificar se estÃ¡ centrado, desviado para a esquerda ou para a direita e corrigir a trajetÃ³ria de forma contÃ­nua.
 </p>
 
 
@@ -529,19 +529,19 @@ Com esta leitura em múltiplos pontos, o AGV consegue identificar se está centrad
 	<TR>
 		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-			O software do AGV foi desenvolvido em linguagem C para o microcontrolador ATmega88 e encontra-se organizado por módulos de funcionalidade.
-O código está estruturado em funções dedicadas à leitura dos sensores analógicos, ao comando dos motores em PWM, à medição da velocidade com base nos encoders, bem como em várias rotinas de interrupção associadas aos timers e às entradas externas.
+			O software do AGV foi desenvolvido em linguagem C para o microcontrolador ATmega88 e encontra-se organizado por mÃ³dulos de funcionalidade.
+O cÃ³digo estÃ¡ estruturado em funÃ§Ãµes dedicadas Ã  leitura dos sensores analÃ³gicos, ao comando dos motores em PWM, Ã  mediÃ§Ã£o da velocidade com base nos encoders, bem como em vÃ¡rias rotinas de interrupÃ§Ã£o associadas aos timers e Ã s entradas externas.
 
 <p>
-A lógica do software foi organizada em duas camadas, como se fossem dois níveis de decisão. A primeira camada é responsável por “seguir a linha”. Os sensores óticos lêem o chão e dizem ao robot onde está a faixa preta. Com essas leituras, o programa calcula um valor de erro que representa o quanto o robot está desviado do centro da linha e para que lado. Quanto maior esse erro, maior tem de ser a correção na direção. A partir desse erro, o robot decide novas velocidades desejadas para cada motor, de forma a voltar ao centro de forma suave.
+A lÃ³gica do software foi organizada em duas camadas, como se fossem dois nÃ­veis de decisÃ£o. A primeira camada Ã© responsÃ¡vel por â€œseguir a linhaâ€. Os sensores Ã³ticos lÃªem o chÃ£o e dizem ao robot onde estÃ¡ a faixa preta. Com essas leituras, o programa calcula um valor de erro que representa o quanto o robot estÃ¡ desviado do centro da linha e para que lado. Quanto maior esse erro, maior tem de ser a correÃ§Ã£o na direÃ§Ã£o. A partir desse erro, o robot decide novas velocidades desejadas para cada motor, de forma a voltar ao centro de forma suave.
 </p>
 
 <p>
-A segunda camada é responsável por “fazer os motores obedecerem” àquilo que foi pedido. Mesmo que o programa mande um motor andar a uma certa velocidade, na prática essa velocidade pode mudar por causa da bateria, do atrito, de curvas ou de pequenas diferenças entre os dois motores. Por isso, o robot mede a velocidade real das rodas com encoders. O programa compara a velocidade real com a velocidade desejada e ajusta o PWM até a velocidade real ficar o mais perto possível da referência.
+A segunda camada Ã© responsÃ¡vel por â€œfazer os motores obedeceremâ€ Ã quilo que foi pedido. Mesmo que o programa mande um motor andar a uma certa velocidade, na prÃ¡tica essa velocidade pode mudar por causa da bateria, do atrito, de curvas ou de pequenas diferenÃ§as entre os dois motores. Por isso, o robot mede a velocidade real das rodas com encoders. O programa compara a velocidade real com a velocidade desejada e ajusta o PWM atÃ© a velocidade real ficar o mais perto possÃ­vel da referÃªncia.
 </p>
 
 <p>
-Para que estas correções não sejam bruscas nem instáveis, o robot usa controladores do tipo PID. De forma intuitiva, isto significa que o robot não reage só ao erro do momento: ele também tem em conta como o erro está a evoluir, para evitar oscilações, e ajusta gradualmente o esforço do motor para manter o movimento consistente. No seguimento de linha, isso ajuda o robot a corrigir curvas sem “abanar” ou passar para o lado errado. No controlo de velocidade, isso ajuda a manter uma velocidade estável, mesmo quando as condições mudam durante o percurso.
+Para que estas correÃ§Ãµes nÃ£o sejam bruscas nem instÃ¡veis, o robot usa controladores do tipo PID. De forma intuitiva, isto significa que o robot nÃ£o reage sÃ³ ao erro do momento: ele tambÃ©m tem em conta como o erro estÃ¡ a evoluir, para evitar oscilaÃ§Ãµes, e ajusta gradualmente o esforÃ§o do motor para manter o movimento consistente. No seguimento de linha, isso ajuda o robot a corrigir curvas sem â€œabanarâ€ ou passar para o lado errado. No controlo de velocidade, isso ajuda a manter uma velocidade estÃ¡vel, mesmo quando as condiÃ§Ãµes mudam durante o percurso.
 </p>
 
 <style>
@@ -628,7 +628,7 @@ Para que estas correções não sejam bruscas nem instáveis, o robot usa controlado
       <td>Diminui pouco</td>
       <td class="strong">Diminui</td>
       <td class="strong">Diminui</td>
-      <td>Pouca variação</td>
+      <td>Pouca variaÃ§Ã£o</td>
       <td>Melhora</td>
     </tr>
   </tbody>
@@ -639,8 +639,8 @@ Para que estas correções não sejam bruscas nem instáveis, o robot usa controlado
 
 <p>
   A tabela apresente o comportamento geral de um controlador PID completo, neste projeto o controlo foi dividido por camadas.
-  No seguimento de linha é usado um controlador <b>PD</b>, para corrigir rapidamente o desvio e reduzir oscilações.
-  No controlo de velocidade é usado um controlador <b>PI</b>, para compensar variações de carga e eliminar o erro em regime permanente.
+  No seguimento de linha Ã© usado um controlador <b>PD</b>, para corrigir rapidamente o desvio e reduzir oscilaÃ§Ãµes.
+  No controlo de velocidade Ã© usado um controlador <b>PI</b>, para compensar variaÃ§Ãµes de carga e eliminar o erro em regime permanente.
 </p>
 
 <h3>Main loop</h3>
@@ -648,117 +648,117 @@ Para que estas correções não sejam bruscas nem instáveis, o robot usa controlado
   <tr>
     
     <td style="text-align:center; padding: 0 25px; vertical-align: top;">
-      <img src="main.png" alt="Código do main loop" width="400"><br>
-      <span style="font-size: 10pt">Figura X – Trecho de código do <i>main loop</i></span>
+      <img src="main.png" alt="CÃ³digo do main loop" width="400"><br>
+      <span style="font-size: 10pt">Figura X â€“ Trecho de cÃ³digo do <i>main loop</i></span>
     </td>
 
     
     <td style="text-align:center; padding: 0 25px; vertical-align: top;">
       <img src="FlowMain.png" alt="Fluxograma do main loop" width="300"><br>
-      <span style="font-size: 10pt">Figura X – Fluxograma do <i>main loop</i></span>
+      <span style="font-size: 10pt">Figura X â€“ Fluxograma do <i>main loop</i></span>
     </td>
   </tr>
 </table>
 <p>
-No main loop o programa corre continuamente duas tarefas principais. Primeiro, é feito o cálculo do erro da linha e são atualizadas as referências de velocidade para cada motor, de forma a corrigir a direção do AGV. Em paralelo, o controlo de velocidade só é executado quando a flag flag_controle_vel é ativada pelo Timer2, garantindo que o ajuste do PWM é feito a intervalos regulares. Esta separação permite que o seguimento da linha seja rápido e reativo, enquanto a velocidade é estabilizada com uma cadência fixa.
+No main loop o programa corre continuamente duas tarefas principais. Primeiro, Ã© feito o cÃ¡lculo do erro da linha e sÃ£o atualizadas as referÃªncias de velocidade para cada motor, de forma a corrigir a direÃ§Ã£o do AGV. Em paralelo, o controlo de velocidade sÃ³ Ã© executado quando a flag flag_controle_vel Ã© ativada pelo Timer2, garantindo que o ajuste do PWM Ã© feito a intervalos regulares. Esta separaÃ§Ã£o permite que o seguimento da linha seja rÃ¡pido e reativo, enquanto a velocidade Ã© estabilizada com uma cadÃªncia fixa.
 </p>
 
-<h3>Função ler_erro_linha</h3>
+<h3>FunÃ§Ã£o ler_erro_linha</h3>
 <table align="center" style="margin: 15px auto 25px auto; border-collapse: collapse;">
   <tr>
     
     <td style="text-align:center; padding: 0 25px; vertical-align: top;">
-      <img src="erro.png" alt="Código do main loop" width="450"><br>
-      <span style="font-size: 10pt">Figura X – Trecho de código da funcção <i>ler_erro_linha</i></span>
+      <img src="erro.png" alt="CÃ³digo do main loop" width="450"><br>
+      <span style="font-size: 10pt">Figura X â€“ Trecho de cÃ³digo da funcÃ§Ã£o <i>ler_erro_linha</i></span>
     </td>
 
     
     <td style="text-align:center; padding: 0 25px; vertical-align: top;">
       <img src="FlowErro.png" alt="Fluxograma do main loop" width=300"><br>
-      <span style="font-size: 10pt">Figura X – Fluxograma da função <i>ler_erro_linha</i></span>
+      <span style="font-size: 10pt">Figura X â€“ Fluxograma da funÃ§Ã£o <i>ler_erro_linha</i></span>
     </td>
   </tr>
 </table>
 
 <p>
-O erro da linha é calculado a partir das leituras dos 5 sensores. Cada sensor que deteta preto contribui com um peso, e o programa faz uma média ponderada para obter um valor entre -4 e 4 que indica o desvio ao centro e o lado do desvio. Se nenhum sensor detetar a linha, mantém-se o ultimo_erro para orientar a procura.
+O erro da linha Ã© calculado a partir das leituras dos 5 sensores. Cada sensor que deteta preto contribui com um peso, e o programa faz uma mÃ©dia ponderada para obter um valor entre -4 e 4 que indica o desvio ao centro e o lado do desvio. Se nenhum sensor detetar a linha, mantÃ©m-se o ultimo_erro para orientar a procura.
 </p>
 
-<h3>Função controlo_linha</h3>
+<h3>FunÃ§Ã£o controlo_linha</h3>
 <table align="center" style="margin: 15px auto 25px auto; border-collapse: collapse;">
   <tr>
     
     <td style="text-align:center; padding: 0 25px; vertical-align: top;">
-      <img src="Controlo.png" alt="Código do main loop" width="520"><br>
-      <span style="font-size: 10pt">Figura X – Trecho de código da funcção <i>controlo_linha</i></span>
+      <img src="Controlo.png" alt="CÃ³digo do main loop" width="520"><br>
+      <span style="font-size: 10pt">Figura X â€“ Trecho de cÃ³digo da funcÃ§Ã£o <i>controlo_linha</i></span>
     </td>
 
     
     <td style="text-align:center; padding: 0 25px; vertical-align: top;">
       <img src="FlowControlo.png" alt="Fluxograma do main loop" width="350"><br>
-      <span style="font-size: 10pt">Figura X – Fluxograma da função <i>controlo_linha</i></span>
+      <span style="font-size: 10pt">Figura X â€“ Fluxograma da funÃ§Ã£o <i>controlo_linha</i></span>
     </td>
   </tr>
 </table>
 
 <p>
-A função controlo_linha() calcula o erro da linha a partir dos sensores e decide como ajustar as velocidades de referência dos dois motores. Se a linha é detetada, aplica um controlo PD para gerar uma correção (delta) e acelerar um motor enquanto abranda o outro, mantendo o robô centrado. Se a linha não é detetada, entra em modo de procura e roda para o lado do último erro registado até voltar a encontrar a faixa.
+A funÃ§Ã£o controlo_linha() calcula o erro da linha a partir dos sensores e decide como ajustar as velocidades de referÃªncia dos dois motores. Se a linha Ã© detetada, aplica um controlo PD para gerar uma correÃ§Ã£o (delta) e acelerar um motor enquanto abranda o outro, mantendo o robÃ´ centrado. Se a linha nÃ£o Ã© detetada, entra em modo de procura e roda para o lado do Ãºltimo erro registado atÃ© voltar a encontrar a faixa.
 </p>
 
 
 
-<h3>Função controlo_velocidade</h3>
+<h3>FunÃ§Ã£o controlo_velocidade</h3>
 <table align="center" style="margin: 15px auto 25px auto; border-collapse: collapse;">
   <tr>
     
     <td style="text-align:center; padding: 0 25px; vertical-align: top;">
-      <img src="velocidade.png" alt="Código do main loop" width="380"><br>
-      <span style="font-size: 10pt">Figura X – Trecho de código da funcção <i>controlo_velocidade</i></span>
+      <img src="velocidade.png" alt="CÃ³digo do main loop" width="380"><br>
+      <span style="font-size: 10pt">Figura X â€“ Trecho de cÃ³digo da funcÃ§Ã£o <i>controlo_velocidade</i></span>
     </td>
 
     
     <td style="text-align:center; padding: 0 25px; vertical-align: top;">
       <img src="FlowVelocidade.png" alt="Fluxograma do main loop" width=200"><br>
-      <span style="font-size: 10pt">Figura X – Fluxograma da função <i>controlo_velocidade</i></span>
+      <span style="font-size: 10pt">Figura X â€“ Fluxograma da funÃ§Ã£o <i>controlo_velocidade</i></span>
     </td>
   </tr>
 </table>
 
 <p>
-A função controlo_velocidade() calcula a velocidade real de cada roda a partir dos pulsos dos encoders e converte esse valor para RPM. Em seguida, compara a velocidade medida com a referência (vel_ref_esq e vel_ref_dir) e aplica um controlo PI para determinar o PWM a enviar a cada motor. No final, o PWM é limitado ao intervalo permitido e aplicado através das funções set_motor_esq() e set_motor_dir(), garantindo uma velocidade mais estável mesmo com variações de carga ou bateria.</p>
+A funÃ§Ã£o controlo_velocidade() calcula a velocidade real de cada roda a partir dos pulsos dos encoders e converte esse valor para RPM. Em seguida, compara a velocidade medida com a referÃªncia (vel_ref_esq e vel_ref_dir) e aplica um controlo PI para determinar o PWM a enviar a cada motor. No final, o PWM Ã© limitado ao intervalo permitido e aplicado atravÃ©s das funÃ§Ãµes set_motor_esq() e set_motor_dir(), garantindo uma velocidade mais estÃ¡vel mesmo com variaÃ§Ãµes de carga ou bateria.</p>
 
-<h3>Função init_hardware</h3>
+<h3>FunÃ§Ã£o init_hardware</h3>
 
-<p> função init_hardware() faz a configuração inicial do microcontrolador. Define os pinos de entrada e saída, configura o Timer0 para gerar PWM para os motores, ativa as interrupções externas para leitura dos encoders, inicializa o ADC para ler os sensores de linha e configura os timers auxiliares (Timer2 para temporização do controlo e Timer1 para o LED de diagnóstico).
+<p> funÃ§Ã£o init_hardware() faz a configuraÃ§Ã£o inicial do microcontrolador. Define os pinos de entrada e saÃ­da, configura o Timer0 para gerar PWM para os motores, ativa as interrupÃ§Ãµes externas para leitura dos encoders, inicializa o ADC para ler os sensores de linha e configura os timers auxiliares (Timer2 para temporizaÃ§Ã£o do controlo e Timer1 para o LED de diagnÃ³stico).
 </p>
 
 			<P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
 			
    			<IMG SRC="init.png" ALT="Encoders" WIDTH="420">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Trecho de código da função <i>init_hardware</i></SPAN>
+      			<SPAN STYLE="font-size: 10pt">Trecho de cÃ³digo da funÃ§Ã£o <i>init_hardware</i></SPAN>
 			</P>
 
-<h3>Interrupções Externas (INT0/INT1)</h3>
+<h3>InterrupÃ§Ãµes Externas (INT0/INT1)</h3>
 
-<p>As interrupções INT0 e INT1 são usadas para contar os pulsos dos encoders das rodas esquerda e direita. Para reduzir contagens falsas causadas por ruído ou vibração, é aplicado um pequeno debounce por software, aceitando um novo pulso apenas se tiver passado um intervalo mínimo desde o último registo. Estes pulsos são acumulados e usados no cálculo da velocidade em RPM.
+<p>As interrupÃ§Ãµes INT0 e INT1 sÃ£o usadas para contar os pulsos dos encoders das rodas esquerda e direita. Para reduzir contagens falsas causadas por ruÃ­do ou vibraÃ§Ã£o, Ã© aplicado um pequeno debounce por software, aceitando um novo pulso apenas se tiver passado um intervalo mÃ­nimo desde o Ãºltimo registo. Estes pulsos sÃ£o acumulados e usados no cÃ¡lculo da velocidade em RPM.
 </p>
 
 			<P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
 			
    			<IMG SRC="int0.png" ALT="Encoders" WIDTH="375">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Trecho de código das funções <i>INT0</i> e  <i>INT0</i> </SPAN>
+      			<SPAN STYLE="font-size: 10pt">Trecho de cÃ³digo das funÃ§Ãµes <i>INT0</i> e  <i>INT0</i> </SPAN>
 			</P>
 
 
 
-<h2>Configurações</h2>
+<h2>ConfiguraÃ§Ãµes</h2>
 
 <h3>Timer0</h3>
 
 
-<p>O Timer0 é utilizado para gerar PWM (Fast PWM) para os dois motores, através das saídas OC0A e OC0B, com prescaler 64.</p>
+<p>O Timer0 Ã© utilizado para gerar PWM (Fast PWM) para os dois motores, atravÃ©s das saÃ­das OC0A e OC0B, com prescaler 64.</p>
 
 
 
@@ -766,14 +766,14 @@ A função controlo_velocidade() calcula a velocidade real de cada roda a partir d
 			<b>TCCR0A</b><br>
    			<IMG SRC="TCCR0A.png" ALT="Encoders" WIDTH="550">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Tabela X – Registo TCCR0A</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo TCCR0A</SPAN>
 			</P>
 
 			<P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
 			<b>TCCR0B</b><br>
    			<IMG SRC="TCCR0B.png" ALT="Encoders" WIDTH="550">
       			<BR>
-      			<SPAN STYLE="font-size: 10pt">Tabela X – Registo TCCR0B</SPAN>
+      			<SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo TCCR0B</SPAN>
 			</P>
 
 
@@ -781,17 +781,17 @@ A função controlo_velocidade() calcula a velocidade real de cada roda a partir d
 
 <ul class="cfg-bullets">
   <li><b>Modo:</b> Fast PWM (WGM02:0 = 3), TOP = 0xFF</li>
-  <li><b>Saídas PWM:</b> OC0A e OC0B em modo não inversor (duty definido por OCR0A e OCR0B)</li>
+  <li><b>SaÃ­das PWM:</b> OC0A e OC0B em modo nÃ£o inversor (duty definido por OCR0A e OCR0B)</li>
   <li><b>Prescaler:</b> 64 (CS02:0 = 011)</li>
-  <li><b>Frequência:</b> ~ 976,6 Hz</li>
-  <li><b>Interrupções:</b> não utilizadas no Timer0 (TIMSK0 sem enables)</li>
+  <li><b>FrequÃªncia:</b> ~ 976,6 Hz</li>
+  <li><b>InterrupÃ§Ãµes:</b> nÃ£o utilizadas no Timer0 (TIMSK0 sem enables)</li>
 </ul>
 
 <h3>Timer1</h3>
 
 <p>
-  O Timer1 é usado como base de tempo para fazer piscar um LED de debug em PD1.
-  O timer está em modo Normal, com prescaler 1024, e é feito preload de TCNT1 para obter overflow a cada ~500 ms.
+  O Timer1 Ã© usado como base de tempo para fazer piscar um LED de debug em PD1.
+  O timer estÃ¡ em modo Normal, com prescaler 1024, e Ã© feito preload de TCNT1 para obter overflow a cada ~500 ms.
   Em cada overflow, a ISR alterna o estado do LED, resultando num piscar a ~1 Hz.
 </p>
 
@@ -799,29 +799,29 @@ A função controlo_velocidade() calcula a velocidade real de cada roda a partir d
   <b>TCCR1A</b><br>
   <IMG SRC="TCCR1A.png" ALT="Registo TCCR1A" WIDTH="550">
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Registo TCCR1A</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo TCCR1A</SPAN>
 </P>
 
 <P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
   <b>TCCR1B</b><br>
   <IMG SRC="TCCR1B.png" ALT="Registo TCCR1B" WIDTH="550">
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Registo TCCR1B</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo TCCR1B</SPAN>
 </P>
 
 <P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
   <b>TIMSK1</b><br>
   <IMG SRC="TIMSK1.png" ALT="Registo TIMSK1" WIDTH="550">
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Registo TIMSK1</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo TIMSK1</SPAN>
 </P>
 
 <ul class="cfg-bullets">
   <li><b>Modo:</b> Normal (WGM13:0 = 0), TOP = 0xFFFF</li>
   <li><b>Prescaler:</b> 1024 (CS12:0 = 101)</li>
   <li><b>Preload:</b> TCNT1 = 57724, overflow a cada ~500 ms</li>
-  <li><b>Interrupções:</b> Overflow ativo (TOIE1 = 1)</li>
-  <li><b>Função:</b> alterna PD1 na ISR, piscar do LED a ~1 Hz</li>
+  <li><b>InterrupÃ§Ãµes:</b> Overflow ativo (TOIE1 = 1)</li>
+  <li><b>FunÃ§Ã£o:</b> alterna PD1 na ISR, piscar do LED a ~1 Hz</li>
 </ul>
 
 
@@ -830,7 +830,7 @@ A função controlo_velocidade() calcula a velocidade real de cada roda a partir d
 <h3>Timer2</h3>
 
 
-<p>O Timer2 é usado como base de tempo do sistema. Está configurado em modo CTC, com prescaler 1024 e OCR2A = 155, gerando uma interrupção a cada ~10 ms (usada para atualizar o tempo e lançar o controlo de velocidade).</p>
+<p>O Timer2 Ã© usado como base de tempo do sistema. EstÃ¡ configurado em modo CTC, com prescaler 1024 e OCR2A = 155, gerando uma interrupÃ§Ã£o a cada ~10 ms (usada para atualizar o tempo e lanÃ§ar o controlo de velocidade).</p>
 
 
 
@@ -838,21 +838,21 @@ A função controlo_velocidade() calcula a velocidade real de cada roda a partir d
   <b>TCCR2A</b><br>
   <IMG SRC="TCCR2A.png" ALT="Registo TCCR2A" WIDTH="550">	
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Registo TCCR2A</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo TCCR2A</SPAN>
 </P>
 
 <P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
   <b>TCCR2B</b><br>
   <IMG SRC="TCCR2B.png" ALT="Registo TCCR2B" WIDTH="550">
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Registo TCCR2B</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo TCCR2B</SPAN>
 </P>
 
 <P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
   <b>TIMSK2</b><br>
   <IMG SRC="TIMSK2.png" ALT="Registo TIMSK2" WIDTH="550">
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Registo TIMSK2</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo TIMSK2</SPAN>
 </P>
 
 
@@ -862,8 +862,8 @@ A função controlo_velocidade() calcula a velocidade real de cada roda a partir d
   <li><b>Modo:</b> CTC (WGM22:0 = 2), TOP = OCR2A</li>
   <li><b>Valor OCR2A:</b> 155</li>
   <li><b>Prescaler:</b> 1024 (CS22:0 = 111)</li>
-  <li><b>Período:</b> ~ 9,984 ms (10 ms)</li>
-  <li><b>Interrupções:</b> Compare Match A ativo (OCIE2A = 1)</li>
+  <li><b>PerÃ­odo:</b> ~ 9,984 ms (10 ms)</li>
+  <li><b>InterrupÃ§Ãµes:</b> Compare Match A ativo (OCIE2A = 1)</li>
 </ul>
 
 <h3>INT0/INT1</h3>
@@ -871,29 +871,29 @@ A função controlo_velocidade() calcula a velocidade real de cada roda a partir d
 
 <h3>ADC</h3>
 
-<p>O ADC é usado para ler os 5 sensores IR (canais ADC0 a ADC4). É utilizada a referência AVcc (REFS0=1) e prescaler 128, obtendo uma frequência de relógio do ADC de ~125 kHz.</p>
+<p>O ADC Ã© usado para ler os 5 sensores IR (canais ADC0 a ADC4). Ã‰ utilizada a referÃªncia AVcc (REFS0=1) e prescaler 128, obtendo uma frequÃªncia de relÃ³gio do ADC de ~125 kHz.</p>
 
 <P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
   <b>ADMUX</b><br>
   <IMG SRC="ADMUX.png" ALT="Registo ADMUX" WIDTH="550">
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Registo ADMUX</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo ADMUX</SPAN>
 </P>
 
 <P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
   <b>ADCSRA</b><br>
   <IMG SRC="ADCSRA.png" ALT="Registo ADCSRA" WIDTH="550">
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Registo ADCSRA</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Registo ADCSRA</SPAN>
 </P>
 
 <ul class="cfg-bullets">
-  <li><b>Referência:</b> AVcc (REFS0 = 1)</li>
+  <li><b>ReferÃªncia:</b> AVcc (REFS0 = 1)</li>
   <li><b>Alinhamento:</b> ADLAR = 0 (resultado a 10 bits)</li>
   <li><b>Prescaler:</b> 128 (ADPS2:0 = 111)</li>
-  <li><b>Frequência ADC:</b> 16 MHz / 128 = 125 kHz</li>
-  <li><b>Leitura:</b> conversão iniciada por polling (ADSC), sem interrupções</li>
-  <li><b>Canais:</b> seleção via MUX (ADMUX), lendo ADC0…ADC4</li>
+  <li><b>FrequÃªncia ADC:</b> 16 MHz / 128 = 125 kHz</li>
+  <li><b>Leitura:</b> conversÃ£o iniciada por polling (ADSC), sem interrupÃ§Ãµes</li>
+  <li><b>Canais:</b> seleÃ§Ã£o via MUX (ADMUX), lendo ADC0â€¦ADC4</li>
 </ul>
 
 
@@ -916,9 +916,9 @@ A função controlo_velocidade() calcula a velocidade real de cada roda a partir d
 	<TR>
 		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-			O sistema foi testado na pista fornecida no laboratório, com uma linha preta
-sobre fundo branco e secções de recta e curva. Foram realizadas várias
-experiências com diferentes valores de velocidade de referência e de ganhos
+			O sistema foi testado na pista fornecida no laboratÃ³rio, com uma linha preta
+sobre fundo branco e secÃ§Ãµes de recta e curva. Foram realizadas vÃ¡rias
+experiÃªncias com diferentes valores de velocidade de referÃªncia e de ganhos
 do controlador.
 
 			<P ALIGN=LEFT><BR>
@@ -927,7 +927,7 @@ do controlador.
 <P ALIGN="CENTER" STYLE="margin-bottom: 50px;">
   <IMG SRC="capa.JPEG" ALT="Registo TCCR1B" WIDTH="300">
   <BR>
-  <SPAN STYLE="font-size: 10pt">Tabela X – Foto do projeto final</SPAN>
+  <SPAN STYLE="font-size: 10pt">Tabela X â€“ Foto do projeto final</SPAN>
 </P>
 
 		</TD>
@@ -946,27 +946,27 @@ do controlador.
 	<TR>
 		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
-			O robot consegue seguir a linha de forma estável ao longo de voltas completas
-à pista, sem sair para o exterior. Observam se ainda pequenas oscilações na
-velocidade, sobretudo para referências muito baixas, o que está relacionado
-com a resolução limitada dos encoders e com a frequência de amostragem
-utilizada. Apesar disso, o comportamento global é adequado ao objectivo do
+			O robot consegue seguir a linha de forma estÃ¡vel ao longo de voltas completas
+Ã  pista, sem sair para o exterior. Observam se ainda pequenas oscilaÃ§Ãµes na
+velocidade, sobretudo para referÃªncias muito baixas, o que estÃ¡ relacionado
+com a resoluÃ§Ã£o limitada dos encoders e com a frequÃªncia de amostragem
+utilizada. Apesar disso, o comportamento global Ã© adequado ao objectivo do
 trabalho.
 			</P>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
-A utilização dos encoders mostrou se fundamental para compensar diferenças
-entre motores e variações de tensão da bateria. Também revelou algumas
-limitações, nomeadamente a resolução relativamente baixa em RPM e a
-necessidade de cuidar da prioridade e da duração das rotinas de interrupção
+A utilizaÃ§Ã£o dos encoders mostrou se fundamental para compensar diferenÃ§as
+entre motores e variaÃ§Ãµes de tensÃ£o da bateria. TambÃ©m revelou algumas
+limitaÃ§Ãµes, nomeadamente a resoluÃ§Ã£o relativamente baixa em RPM e a
+necessidade de cuidar da prioridade e da duraÃ§Ã£o das rotinas de interrupÃ§Ã£o
 para evitar perda de pulsos.
 			</P>
 			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm">
 Como trabalho futuro podem ser exploradas melhorias ao algoritmo de controlo
 de seguimento de linha introduzindo uma componente derivativa, filtros para
-reduzir ruído nas medições dos encoders e estratégias mais avançadas de
-procura da linha quando esta é perdida. Outra possibilidade é substituir o
-driver L293D por um módulo de maior eficiência, bem como desenhar uma placa
-dedicada para reduzir ligações em breadboard.	
+reduzir ruÃ­do nas mediÃ§Ãµes dos encoders e estratÃ©gias mais avanÃ§adas de
+procura da linha quando esta Ã© perdida. Outra possibilidade Ã© substituir o
+driver L293D por um mÃ³dulo de maior eficiÃªncia, bem como desenhar uma placa
+dedicada para reduzir ligaÃ§Ãµes em breadboard.	
 			</P>
 			<P ALIGN=LEFT><BR>
 			</P>
