@@ -1,7 +1,7 @@
 # LABSIS AGV 25/26 — Seguidor de Linha (ATmega88)
 
 Projeto desenvolvido no âmbito da unidade curricular **LABSIS (2025/2026)**.  
-Consiste num **AGV seguidor de linha** baseado no microcontrolador **ATmega88/ATmega328**, com leitura de sensores óticos, controlo de motores DC via ponte H, e medição de velocidade por encoders.
+Consiste num **AGV seguidor de linha** baseado no microcontrolador **ATmega88**, com leitura de sensores óticos, controlo de motores DC via ponte H, e medição de velocidade por encoders.
 
 ## Conteúdo do repositório
 - `main.c` — firmware em C (AVR) do AGV
@@ -21,5 +21,5 @@ O controlo do robot é organizado em duas camadas:
 2. **Controlo de velocidade (PI):** mede a velocidade real com encoders e ajusta o PWM para atingir as referências, compensando variações de carga/bateria.
 
 ## Autores
-- João Pedro Ribeiro Bastos — 1211352  
-- Pedro Coelho — 1200761
+- João Pedro Ribeiro Bastos 
+- Pedro Coelho
